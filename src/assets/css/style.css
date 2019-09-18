@@ -110,6 +110,7 @@ tbody tr:hover {
     font-size: 12px;
     font-weight: 600;
     border-color: #707070;
+    text-transform: uppercase;
 }
 table td {
     font-size: 16px;
@@ -166,6 +167,10 @@ table p {
 .ui.table.product-info tbody tr:hover {
     box-shadow: none;
 }
+.main-table tbody tr:hover,.main-table tbody tr:hover .product-info
+{
+    background: #F8FAFF;
+}
 /*Table*/
 @media (max-width: 1199px)
 {
@@ -181,6 +186,9 @@ table p {
     table td
     {
         font-size: 14px;
+    }
+    table.ui.table.product-info tr td {
+        padding: 10px;
     }
 }
 @media (max-width: 767px)

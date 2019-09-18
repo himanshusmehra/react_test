@@ -1,10 +1,10 @@
 import React from 'react';
 import DetailButton from '../button/button';
-import { Table, Container, Checkbox, Button, Dropdown, Rating, Icon } from 'semantic-ui-react'
+import { Table, Container, Checkbox, Button, Dropdown, Rating, Icon } from 'semantic-ui-react';
 
 function DataTable() {
   return (
-    <Container fluid="0" className="p-2 md-s">
+    <Container fluid="0" className="p-2 md-s main-table">
       <Table>
         <Table.Header>
           <Table.Row>
@@ -25,7 +25,7 @@ function DataTable() {
             <Table.HeaderCell>Unit Sold<Icon name='sort'/></Table.HeaderCell>
             <Table.HeaderCell>Profit/ Mo<Icon name='sort'/></Table.HeaderCell>
             <Table.HeaderCell>ROI<Icon name='sort'/></Table.HeaderCell>
-            <Table.HeaderCell><div className="flex-justify"><div>Other Sort <Icon name='angle down'/></div><img width="30px" height="30px" src={require('../../assets/img/download.svg')} alt="" /></div></Table.HeaderCell>
+            <Table.HeaderCell><div className="flex-justify"><div>Other Sort <Icon name='angle down'/></div><img width="25px" height="25px" src={require('../../assets/img/download.svg')} alt="" /></div></Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 
