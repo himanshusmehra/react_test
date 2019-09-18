@@ -4,7 +4,7 @@ import { Table, Container, Checkbox, Button, Dropdown, Rating, Icon } from 'sema
 
 function DataTable() {
   return (
-    <Container fluid="0" className="p-2">
+    <Container fluid="0" className="p-2 md-s">
       <Table>
         <Table.Header>
           <Table.Row>

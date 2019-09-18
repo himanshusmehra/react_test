@@ -167,3 +167,52 @@ table p {
     box-shadow: none;
 }
 /*Table*/
+@media (max-width: 1199px)
+{
+    .md-s
+    {
+        overflow: auto;
+    }
+    table h2 span
+    {
+        text-align: left !important;
+        position: inherit;
+    }
+    table td
+    {
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px)
+{
+    .ui.table thead th {
+        text-align: left !important;
+    }
+    .flex-justify, .seller, .prime-choice
+    {
+        justify-content: flex-start;
+    }
+    table h2, .ui.table.product-info
+    {
+        margin: 0px;
+    }
+    table h2 span
+    {
+        text-align: left !important;
+        position: inherit;
+    }
+    table p
+    {
+        text-align: left;
+    }
+    
+    .ui.table.product-info td {
+        padding: 0px !important;
+    }
+    .topseller-box .fitted.checkbox {
+        margin-right: 20px;
+    }
+    .p-2 {
+        padding: 0;
+    }
+}
