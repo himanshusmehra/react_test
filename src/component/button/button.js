@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button, Dropdown } from 'semantic-ui-react'
 const options = [
-    { key: 'edit', text: 'Edit Detail', value: 'edit' },
-    { key: 'delete', text: 'Remove Detail', value: 'delete' },
-    { key: 'hide', text: 'Hide Detail', value: 'hide' },
+    { key: 'edit', text: 'Edit Details', value: 'edit' },
+    { key: 'delete', text: 'Remove Details', value: 'delete' },
+    { key: 'hide', text: 'Hide Details', value: 'hide' },
 ]
 function DetailButton() {
     return (
